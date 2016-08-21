@@ -1,15 +1,13 @@
 i {
   display: inline-block;
   background-size: cover;
+  background-position: center;
   width: 31px;
   height: 47px; }
-  i.inline {
-    width: 25px;
-    height: 38px; }
-  @media (max-width: 768px) {
+  @media (max-width: 400px) {
     i.xs-tile {
-      width: 25px;
-      height: 38px; } }
+      width: 18px;
+      height: 27px; } }
   i.p1 {
     background-image: url(./tiles/1p.gif); }
   i.p2 {
@@ -98,9 +96,12 @@ table em.small {
 .m-left {
   margin-left: 10px; }
 
-.v-middle {
+.score-table {
   vertical-align: middle; }
-  .v-middle td, .v-middle th {
+  .score-table td, .score-table th {
     vertical-align: middle !important; }
+  @media (max-width: 400px) {
+    .score-table {
+      font-size: 80%; } }
 
 /*# sourceMappingURL=style.css.map */

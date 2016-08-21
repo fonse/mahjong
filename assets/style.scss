@@ -1,19 +1,14 @@
 i {
     display:inline-block;
     background-size:cover;
+    background-position:center;
     width:31px;
     height:47px;
 
-    &.inline{
-        width:25px;
-        height:38px;
-    }
-
-
-    @media (max-width: 768px) {
+    @media (max-width: 400px) {
       &.xs-tile{
-        width:25px;
-        height:38px;
+        width:18px;
+        height:27px;
       }
     }
 
@@ -82,10 +77,13 @@ table em.small{
     margin-left:10px;
 }
 
-.v-middle{
+.score-table{
     vertical-align: middle;
-
     & td, & th{
         vertical-align: middle !important;
+    }
+
+    @media (max-width: 400px) {
+        font-size:80%;
     }
 }

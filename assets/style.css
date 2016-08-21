@@ -102,6 +102,6 @@ table em.small {
     vertical-align: middle !important; }
   @media (max-width: 400px) {
     .score-table {
-      font-size: 80%; } }
+      font-size: 75%; } }
 
 /*# sourceMappingURL=style.css.map */

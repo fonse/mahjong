@@ -3,10 +3,13 @@ i {
   background-size: cover;
   width: 31px;
   height: 47px; }
-  p i {
+  i.inline {
     width: 25px;
-    height: 38px;
-    vertical-align: middle; }
+    height: 38px; }
+  @media (max-width: 768px) {
+    i.xs-tile {
+      width: 25px;
+      height: 38px; } }
   i.p1 {
     background-image: url(./tiles/1p.gif); }
   i.p2 {
@@ -82,7 +85,18 @@ table em.small {
 .c {
   text-align: center; }
 
+.m-half-top {
+  margin-top: 5px; }
+
 .m-bot {
   margin-bottom: 10px; }
+
+.m-left {
+  margin-left: 10px; }
+
+.v-middle {
+  vertical-align: middle; }
+  .v-middle td, .v-middle th {
+    vertical-align: middle !important; }
 
 /*# sourceMappingURL=style.css.map */

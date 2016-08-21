@@ -72,8 +72,8 @@
 
       <div class="row">
         <div class="col-md-6">
-          <h3>Most common</h3>
-          <table class="table">
+          <h4>Most common</h4>
+          <table class="table js-yaku-table">
             <thead>
               <tr>
                 <th>Yaku</th>
@@ -86,7 +86,7 @@
                 <td>1*</td>
               </tr>
               <tr>
-                <td>Ippatsu <em class="small">(Winning within 1 turn of riichi)</em></td>
+                <td>Ippatsu</td>
                 <td>1*</td>
               </tr>
               <tr>
@@ -94,26 +94,26 @@
                 <td>1*</td>
               </tr>
               <tr>
-                <td>Pin Fu <em class="small">(All chi, no yakuhai, edge wait)</em></td>
+                <td>Pin Fu</td>
                 <td>1*</td>
               </tr>
               <tr>
-                <td>Tan Yao <em class="small">(No 1, 9 or honors)</em></td>
+                <td>Tan Yao</td>
                 <td>1*</td>
               </tr>
               <tr>
-                <td>Yakuhai <em class="small">(Pon of dragons or winds)</em></td>
+                <td>Yakuhai</td>
                 <td>1</td>
               </tr>
               <tr>
-                <td>Chii Toitsu <em class="small">(Seven Pairs)</em></td>
+                <td>Chii Toitsu</td>
                 <td>2</td>
               </tr>
             </tbody>
           </table>
 
-          <h3>Related to chi</h3>
-          <table class="table">
+          <h4>Related to chi</h4>
+          <table class="table js-yaku-table">
             <thead>
               <tr>
                 <th>Yaku</th>
@@ -122,26 +122,26 @@
             </thead>
             <tbody>
               <tr>
-                <td>Iipeiko <em class="small">(Two identical chi)</em></td>
+                <td>Iipeiko</td>
                 <td>1*</td>
               </tr>
               <tr>
-                <td>Ryanpeiko <em class="small">(Two pairs of identical chi)</em></td>
+                <td>Ryanpeiko</td>
                 <td>3*</td>
               </tr>
               <tr>
-                <td>Sanshoku <em class="small">(Same chi in all 3 suits)</em></td>
+                <td>Sanshoku</td>
                 <td>1+</td>
               </tr>
               <tr>
-                <td>Itsuu <em class="small">(123 456 789)</em></td>
+                <td>Itsuu</td>
                 <td>1+</td>
               </tr>
             </tbody>
           </table>
 
-          <h3>Related to pon</h3>
-          <table class="table">
+          <h4>Related to pon</h4>
+          <table class="table js-yaku-table">
             <thead>
               <tr>
                 <th>Yaku</th>
@@ -150,30 +150,30 @@
             </thead>
             <tbody>
               <tr>
-                <td>Toi Toi <em class="small">(All pon)</em></td>
+                <td>Toi Toi</td>
                 <td>2</td>
               </tr>
               <tr>
-                <td>San Ankou <em class="small">(Three closed pon)</em></td>
+                <td>Sanshoku Doukou</td>
                 <td>2</td>
               </tr>
               <tr>
-                <td>Sanshoku Doukou <em class="small">(Same pon in all 3 suits)</em></td>
+                <td>San Ankou</td>
                 <td>2</td>
               </tr>
               <tr>
-                <td>San Kantsu <em class="small">(3 kans)</em></td>
+                <td>San Kantsu</td>
                 <td>2</td>
               </tr>
               <tr>
-                <td>Shou Sangen <em class="small">(2 pon and pair of dragons)</em></td>
+                <td>Shou Sangen</td>
                 <td>4</td>
               </tr>
             </tbody>
           </table>
 
-          <h3>Related to structure</h3>
-          <table class="table">
+          <h4>Related to structure</h4>
+          <table class="table js-yaku-table">
             <thead>
               <tr>
                 <th>Yaku</th>
@@ -182,31 +182,217 @@
             </thead>
             <tbody>
               <tr>
-                <td>Hon Itsu <em class="small">(One suit with honors)</em></td>
+                <td>Hon Itsu</td>
                 <td>2+</td>
               </tr>
               <tr>
-                <td>Chin Itsu <em class="small">(One suit without honors)</em></td>
+                <td>Chin Itsu</td>
                 <td>5+</td>
               </tr>
               <tr>
-                <td>Chanta <em class="small">(All contain 1, 9 or honors)</em></td>
+                <td>Chanta</td>
                 <td>1+</td>
               </tr>
               <tr>
-                <td>Junchan <em class="small">(All contain 1 or 9)</em></td>
+                <td>Junchan</td>
                 <td>2+</td>
               </tr>
               <tr>
-                <td>Honrou <em class="small">(Only 1, 9 or honors)</em></td>
+                <td>Honrou</td>
                 <td>4</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
+      
+
+      <!-- Scoring Reference !-->
+      <h1 id="scoring">Scoring Reference</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Case</th>
+                <th>Fu</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Base</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>Closed ron</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Tsumo</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Single Wait</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Pair of yakuhai</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Open pon</td>
+                <td>2 / 4</td>
+              </tr>
+              <tr>
+                <td>Closed pon</td>
+                <td>4 / 8</td>
+              </tr>
+              <tr>
+                <td>Open kan</td>
+                <td>8 / 16</td>
+              </tr>
+              <tr>
+                <td>Closed kan</td>
+                <td>16 / 32</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <h3>East win</h3>
+      <table class="table c v-middle">
+        <thead>
+          <tr>
+            <th class="c">&nbsp;</th>
+            <th class="c">1 Han</th>
+            <th class="c">2 Han</th>
+            <th class="c">3 Han</th>
+            <th class="c">4 Han</th>
+            <th class="c hidden-xs">5 Han</th>
+            <th class="c hidden-xs">6-7 Han</th>
+            <th class="c hidden-xs">8-10 Han</th>
+            <th class="c hidden-xs">11-12 Han</th>
+            <th class="c hidden-xs">13+ Han</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>20 Fu</th>
+            <td>&mdash;</td>
+            <td>2000<br>(700)</td>
+            <td>3900<br>(1300)</td>
+            <td>7700<br>(2600)</td>
+            <td class="hidden-xs" rowspan="6">12000<br>(4000)</td>
+            <td class="hidden-xs" rowspan="6">18000<br>(6000)</td>
+            <td class="hidden-xs" rowspan="6">24000<br>(8000)</td>
+            <td class="hidden-xs" rowspan="6">36000<br>(12000)</td>
+            <td class="hidden-xs" rowspan="6">48000<br>(16000)</td>
+          </tr>
+          <tr>
+            <th>25 Fu</th>
+            <td>&mdash;</td>
+            <td>2400<br>(800)</td>
+            <td>4800<br>(1600)</td>
+            <td>9600<br>(3200)</td>
+          </tr>
+          <tr>
+            <th>30 Fu</th>
+            <td>1500<br>(500)</td>
+            <td>2900<br>(1000)</td>
+            <td>5800<br>(2000)</td>
+            <td>11600<br>(3900)</td>
+          </tr>
+          <tr>
+            <th>40 Fu</th>
+            <td>2000<br>(700)</td>
+            <td>3900<br>(1300)</td>
+            <td>7700<br>(2600)</td>
+            <td rowspan="3">12000<br>(4000)</td>
+          </tr>
+          <tr>
+            <th>50 Fu</th>
+            <td>2400<br>(800)</td>
+            <td>4800<br>(1600)</td>
+            <td>9600<br>(3200)</td>
+          </tr>
+          <tr>
+            <th>60 Fu</th>
+            <td>2900<br>(1000)</td>
+            <td>5800<br>(2000)</td>
+            <td>11600<br>(3900)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Non-east win</h3>
+      <table class="table c v-middle">
+        <thead>
+          <tr>
+            <th class="c">&nbsp;</th>
+            <th class="c">1 Han</th>
+            <th class="c">2 Han</th>
+            <th class="c">3 Han</th>
+            <th class="c">4 Han</th>
+            <th class="c hidden-xs">5 Han</th>
+            <th class="c hidden-xs">6-7 Han</th>
+            <th class="c hidden-xs">8-10 Han</th>
+            <th class="c hidden-xs">11-12 Han</th>
+            <th class="c hidden-xs">13+ Han</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>20 Fu</th>
+            <td>&mdash;</td>
+            <td>1300<br>(400/700)</td>
+            <td>2600<br>(700/1300)</td>
+            <td>5200<br>(1300/2600)</td>
+            <td class="hidden-xs" rowspan="6">8000<br>(2000/4000)</td>
+            <td class="hidden-xs" rowspan="6">12000<br>(3000/6000)</td>
+            <td class="hidden-xs" rowspan="6">16000<br>(4000/8000)</td>
+            <td class="hidden-xs" rowspan="6">24000<br>(6000/12000)</td>
+            <td class="hidden-xs" rowspan="6">32000<br>(8000/16000)</td>
+          </tr>
+          <tr>
+            <th>25 Fu</th>
+            <td>&mdash;</td>
+            <td>1600<br>(400/800)</td>
+            <td>3200<br>(800/1600)</td>
+            <td>6400<br>(1600/3200)</td>
+          </tr>
+          <tr>
+            <th>30 Fu</th>
+            <td>1000<br>(300/500)</td>
+            <td>2000<br>(500/1000)</td>
+            <td>3900<br>(1000/2000)</td>
+            <td>6400<br>(2000/3900)</td>
+          </tr>
+          <tr>
+            <th>40 Fu</th>
+            <td>1300<br>(400/700)</td>
+            <td>2600<br>(700/1300)</td>
+            <td>5200<br>(1300/2600)</td>
+            <td rowspan="3">8000<br>(2000/4000)</td>
+          </tr>
+          <tr>
+            <th>50 Fu</th>
+            <td>1600<br>(400/800)</td>
+            <td>3200<br>(800/1600)</td>
+            <td>6400<br>(1600/3200)</td>
+          </tr>
+          <tr>
+            <th>60 Fu</th>
+            <td>2000<br>(500/1000)</td>
+            <td>3900<br>(1000/2000)</td>
+            <td>7700<br>(2000/3900)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/app.js"></script>
   </body>
 </html>

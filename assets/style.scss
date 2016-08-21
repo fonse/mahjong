@@ -57,6 +57,11 @@ i {
     &.chun{ background-image: url(./tiles/7z.gif); }
 }
 
+body { 
+    padding-top: 50px; 
+    position:relative;
+}
+
 table em.small{
     color:#888;
 }

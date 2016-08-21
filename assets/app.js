@@ -120,4 +120,5 @@ function processYakuTable($table){
 
 $(document).ready(function(){
     processYakuTable($(".js-yaku-table"));
+    $('body').scrollspy({ target: '#navbar' });
 });

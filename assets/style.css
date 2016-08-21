@@ -1,0 +1,88 @@
+i {
+  display: inline-block;
+  background-size: cover;
+  width: 31px;
+  height: 47px; }
+  p i {
+    width: 25px;
+    height: 38px;
+    vertical-align: middle; }
+  i.p1 {
+    background-image: url(./tiles/1p.gif); }
+  i.p2 {
+    background-image: url(./tiles/2p.gif); }
+  i.p3 {
+    background-image: url(./tiles/3p.gif); }
+  i.p4 {
+    background-image: url(./tiles/4p.gif); }
+  i.p5 {
+    background-image: url(./tiles/5p.gif); }
+  i.p6 {
+    background-image: url(./tiles/6p.gif); }
+  i.p7 {
+    background-image: url(./tiles/7p.gif); }
+  i.p8 {
+    background-image: url(./tiles/8p.gif); }
+  i.p9 {
+    background-image: url(./tiles/9p.gif); }
+  i.s1 {
+    background-image: url(./tiles/1s.gif); }
+  i.s2 {
+    background-image: url(./tiles/2s.gif); }
+  i.s3 {
+    background-image: url(./tiles/3s.gif); }
+  i.s4 {
+    background-image: url(./tiles/4s.gif); }
+  i.s5 {
+    background-image: url(./tiles/5s.gif); }
+  i.s6 {
+    background-image: url(./tiles/6s.gif); }
+  i.s7 {
+    background-image: url(./tiles/7s.gif); }
+  i.s8 {
+    background-image: url(./tiles/8s.gif); }
+  i.s9 {
+    background-image: url(./tiles/9s.gif); }
+  i.m1 {
+    background-image: url(./tiles/1m.gif); }
+  i.m2 {
+    background-image: url(./tiles/2m.gif); }
+  i.m3 {
+    background-image: url(./tiles/3m.gif); }
+  i.m4 {
+    background-image: url(./tiles/4m.gif); }
+  i.m5 {
+    background-image: url(./tiles/5m.gif); }
+  i.m6 {
+    background-image: url(./tiles/6m.gif); }
+  i.m7 {
+    background-image: url(./tiles/7m.gif); }
+  i.m8 {
+    background-image: url(./tiles/8m.gif); }
+  i.m9 {
+    background-image: url(./tiles/9m.gif); }
+  i.e {
+    background-image: url(./tiles/1z.gif); }
+  i.s {
+    background-image: url(./tiles/2z.gif); }
+  i.w {
+    background-image: url(./tiles/3z.gif); }
+  i.n {
+    background-image: url(./tiles/4z.gif); }
+  i.haku {
+    background-image: url(./tiles/5z.gif); }
+  i.hatsu {
+    background-image: url(./tiles/6z.gif); }
+  i.chun {
+    background-image: url(./tiles/7z.gif); }
+
+table em.small {
+  color: #888; }
+
+.c {
+  text-align: center; }
+
+.m-bot {
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=style.css.map */

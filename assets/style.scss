@@ -1,0 +1,62 @@
+i {
+    display:inline-block;
+    background-size:cover;
+    width:31px;
+    height:47px;
+
+    p &{
+        width:25px;
+        height:38px;
+        vertical-align: middle;
+    }
+
+    &.p1{ background-image: url(./tiles/1p.gif); }
+    &.p2{ background-image: url(./tiles/2p.gif); }
+    &.p3{ background-image: url(./tiles/3p.gif); }
+    &.p4{ background-image: url(./tiles/4p.gif); }
+    &.p5{ background-image: url(./tiles/5p.gif); }
+    &.p6{ background-image: url(./tiles/6p.gif); }
+    &.p7{ background-image: url(./tiles/7p.gif); }
+    &.p8{ background-image: url(./tiles/8p.gif); }
+    &.p9{ background-image: url(./tiles/9p.gif); }
+
+    &.s1{ background-image: url(./tiles/1s.gif); }
+    &.s2{ background-image: url(./tiles/2s.gif); }
+    &.s3{ background-image: url(./tiles/3s.gif); }
+    &.s4{ background-image: url(./tiles/4s.gif); }
+    &.s5{ background-image: url(./tiles/5s.gif); }
+    &.s6{ background-image: url(./tiles/6s.gif); }
+    &.s7{ background-image: url(./tiles/7s.gif); }
+    &.s8{ background-image: url(./tiles/8s.gif); }
+    &.s9{ background-image: url(./tiles/9s.gif); }
+
+    &.m1{ background-image: url(./tiles/1m.gif); }
+    &.m2{ background-image: url(./tiles/2m.gif); }
+    &.m3{ background-image: url(./tiles/3m.gif); }
+    &.m4{ background-image: url(./tiles/4m.gif); }
+    &.m5{ background-image: url(./tiles/5m.gif); }
+    &.m6{ background-image: url(./tiles/6m.gif); }
+    &.m7{ background-image: url(./tiles/7m.gif); }
+    &.m8{ background-image: url(./tiles/8m.gif); }
+    &.m9{ background-image: url(./tiles/9m.gif); }
+
+    &.e{ background-image: url(./tiles/1z.gif); }
+    &.s{ background-image: url(./tiles/2z.gif); }
+    &.w{ background-image: url(./tiles/3z.gif); }
+    &.n{ background-image: url(./tiles/4z.gif); }
+    &.haku{ background-image: url(./tiles/5z.gif); }
+    &.hatsu{ background-image: url(./tiles/6z.gif); }
+    &.chun{ background-image: url(./tiles/7z.gif); }
+}
+
+table em.small{
+    color:#888;
+}
+
+.c {
+    text-align: center;
+}
+
+.m-bot{
+    margin-bottom:10px;
+}

@@ -12,6 +12,9 @@ i {
       }
     }
 
+    .hand &:last-child{
+      margin-left:10px;
+    }
 
     &.p1{ background-image: url(./tiles/1p.gif); }
     &.p2{ background-image: url(./tiles/2p.gif); }
@@ -52,8 +55,12 @@ i {
     &.chun{ background-image: url(./tiles/7z.gif); }
 }
 
-body { 
-    padding-top: 50px; 
+.kuisagari:after{
+  content: "↓"
+}
+
+body {
+    padding-top: 50px;
     position:relative;
 }
 
@@ -71,10 +78,6 @@ table em.small{
 
 .m-bot{
     margin-bottom:10px;
-}
-
-.m-left{
-    margin-left:10px;
 }
 
 .score-table{

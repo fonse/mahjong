@@ -86,16 +86,16 @@ function buildHand(str){
     var tiles = str.split(' ');
 
     $.each(tiles, function(i, tile){
-        $hand.append(buildTile(tile, i == tiles.length-1 ? 'm-left' : ''));
+        $hand.append(buildTile(tile));
     });
 
     return $hand;
 }
 
-function buildTile(str, extraClass){
+function buildTile(str){
     var _class = str.length == 2 ? str.split("").reverse().join("") : str;
 
-    return $('<i class="' + _class + ' xs-tile ' + extraClass + '"></i>');
+    return $('<i class="' + _class + ' xs-tile"></i>');
 }
 
 function processYakuTable($table){

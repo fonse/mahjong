@@ -1,3 +1,4 @@
+@charset "UTF-8";
 i {
   display: inline-block;
   background-size: cover;
@@ -8,6 +9,8 @@ i {
     i.xs-tile {
       width: 18px;
       height: 27px; } }
+  .hand i:last-child {
+    margin-left: 10px; }
   i.p1 {
     background-image: url(./tiles/1p.gif); }
   i.p2 {
@@ -77,6 +80,9 @@ i {
   i.chun {
     background-image: url(./tiles/7z.gif); }
 
+.kuisagari:after {
+  content: "↓"; }
+
 body {
   padding-top: 50px;
   position: relative; }
@@ -92,9 +98,6 @@ table em.small {
 
 .m-bot {
   margin-bottom: 10px; }
-
-.m-left {
-  margin-left: 10px; }
 
 .score-table {
   vertical-align: middle; }
